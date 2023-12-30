@@ -1,0 +1,50 @@
+CONFIG:
+git config --global user.name "Name"
+git config --global user.email "mail@mail.com"
+
+SSH Key Gen:
+ssh-keygen
+cat id.pub
+
+git clone <https/ssh>
+
+git status
+
+git add <file>
+git add .
+
+git commit -m "Title" -m "Description"
+git commit -am "Title" -m "Description"             (add + commit, only for modified file)
+
+git push
+git push origin <branch>
+git push -u origin <branch>
+git push --set-upstream origin <branch>
+
+git init                                            (Create local repo)
+
+git remote add origin <ssh>                         (Link local repo to Github repo)
+git remote -v                                       (Show set upstream)
+
+git branch                                          (Show branch)
+git branch -d <branch>                              (Delete branch)
+
+git checkout
+git checkout -b <new branch>                        (Create branch)
+git checkout <branch>                               (Switch branch)
+
+git merge <branch>
+
+git diff <branch>
+
+git pull                                            (Pull changes from Github)
+git pull origin <branch>
+
+UNDOING
+git reset                                           (Undoing add)
+git reset <file>
+git reset HEAD~1                                    (Undoing last commit)
+git reset <commit hash>                             (Unstaging changes after a commit)
+git reset --hard <commit hash>                      (Completely remove changes)
+
+git log                                             (Commit log)
