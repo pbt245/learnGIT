@@ -27,10 +27,11 @@ git remote add origin <ssh>                         (Link local repo to Github r
 git remote -v                                       (Show set upstream)
 
 git branch                                          (Show branch)
+git branch <new branch>                             (Create branch)
 git branch -d <branch>                              (Delete branch)
 
 git checkout
-git checkout -b <new branch>                        (Create branch)
+git checkout -b <new branch>                        (Create branch and Switch)
 git checkout <branch>                               (Switch branch)
 
 git merge <branch>
